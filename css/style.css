@@ -57,8 +57,38 @@ body {
 
 .mid {
     border: 2px solid green;
+    padding: 40px 80px;
 }
 
+.statement {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.mid-img {
+
+}
+
+.comment {
+    border: 2px solid orange;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+img {
+    border: 2px solid purple;
+    width: 150px;
+    height: 150px;
+}
 
 .quote {
     border: 2px solid yellow;
