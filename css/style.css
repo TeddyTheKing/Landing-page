@@ -38,6 +38,27 @@ body {
 .hero {
     border: 2px solid blue;
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+
+.left {
+    border: 2px solid blue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right {
+    border: 2px solid blue;
+    padding: 0;
+}
+
+.troja {
+    width: 600px;
+    height: 200px;
 }
 
 .hero-main {
@@ -57,7 +78,7 @@ body {
 
 .mid {
     border: 2px solid green;
-    padding: 40px 80px;
+    padding-top: 20px;
 }
 
 .statement {
@@ -74,7 +95,7 @@ body {
 }
 
 .mid-img {
-
+    border: 2px solid lightgreen;
 }
 
 .comment {
@@ -84,14 +105,35 @@ body {
     font-weight: 300;
 }
 
-img {
+.img {
     border: 2px solid purple;
+    border-radius: 15px;
     width: 150px;
     height: 150px;
 }
 
 .quote {
     border: 2px solid yellow;
+    background-color: #E5E7EB;
+    padding: 20px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.quotation {
+    border: 2px solid yellow;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.who {
+    border: 2px solid yellow;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1F2937;
+    text-align: end;
 }
 
 .reg {
